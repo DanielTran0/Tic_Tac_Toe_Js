@@ -198,8 +198,8 @@ const gameController = (() => {
     }
     const _minimax = (boardState, depth, isMaximizing) => {
         let scores = {
-            X: -10,
-            O: 10,
+            X: -1,
+            O: 1,
             tie: 0,
         }
         let result = gameBoard.checkForWinner();
